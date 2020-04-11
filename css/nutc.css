@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: verdana, arial, verdana;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    width: 100%;
+}
+header {
+    background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.navbar_Left .in:hover {
+    cursor: text;
+    text-decoration: none;
+}  
+.navbar li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+.navbar .li-r {
+    border-right: 0.5px solid #fff;
+    height: 15px;
+}
+.navbar a:hover {
+    text-decoration:underline ;
+}
+.navbar_Left {
+    display: flex;
+    justify-content:space-between;
+}
+.navbar_Left .in {
+    margin-right: -10px;
+}
+.navbar_Right {
+    display: flex;
+    justify-content:space-between;
+}
+.navbar_Right img {
+    vertical-align: bottom;
+}
+.navbar_Right .FB {
+    color: red;
+}
+.banner {
+    width: 960px;
+    margin: 0px auto;
+}
+.banner-top {
+    width: 960px;
+}
+.banner-top .T-logo {
+    width: 260px;
+}
+.banner-top .fourpic{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.banner-list {
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.banner-list img {
+    padding-right: 10px;
+}
+.banner2 img{
+    width: 100%;
+}
+.content {
+    width: 960px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contentL {
+    width: 25%;
+    height: 390px;
+    border-right: 0.5px solid #999;
+    padding-right: 15px;
+}
+.contentL .title {
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content-in .date {
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.contentL a {
+    color: #333;
+    font-size: 12px;
+}
+.contentL a:hover {
+    color: #999;
+    text-decoration: underline;
+}
+.contentL .orange {
+    background-color: orangered;
+    color: white;
+    padding: 0px 3px;
+}
+.contentL .orange:hover {
+    text-decoration: underline;
+    color: white;
+}
+.content-in .hr1 {
+    margin: 5px 0px;
+}
+.contentL .more {
+    color: #333;
+    font-size: 12px;
+    float: right;
+}
+.contentR {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.contentR .conR {
+    border: 0.5px solid #333;
+    padding: 5px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.conR .news2 {
+    margin: 10px 0px;
+}
+.conR a {
+    color: #28004D;
+    font-weight: bold;
+    font-size: 14px;
+}
+.conR hr {
+    margin: 10px 0px;
+    border: 0.5px dotted #999;
+}
+.conR p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.conR:hover {
+    background-color: 	#DDDDFF;
+}
+.conR .news1:hover {
+    cursor: pointer;
+}
+.conR a:hover {
+    color: #999;
+    text-decoration: underline  #999;
+}
+.fivepic {
+    width: 150px;
+}
+.fivepic img {
+    margin-bottom: 14px;
+}
+.con-bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    height: 250px;
+    margin: 10px auto 200px auto;
+}
+.page {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px auto;
+    width: 960px;
+    border-top: 2px dotted #333;
+}
+.page img {
+    width: 100px;
+    height: 25px;
+}
+.con-bottom .bottom-text li {
+    border-bottom: 1px dotted #333;
+    padding: 3px 0px;
+}
+.con-bottom .bottom-text a {
+    color: #333;
+    font-size: 14px;
+}
+.con-bottom:hover {
+    text-decoration: underline;
+}
+.con-bottom .bottom-text a:hover {
+    color: #999;
+    text-decoration: underline;
+}
+.con-bottom .bottom-text .more {
+    float: right;
+}
+.bottom-text img {
+    margin-bottom: 10px;
+}
+.bottom-img {
+    width: 960px;
+    margin: 0px auto;
+}
+.bottom-a {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+}
+.bottom-b {
+    top: -10px;
+    height: 30px;
+}
+.bottom-b img{
+    float: right;
+    top: -50px;
+    margin: 0px 2px;
+}
+footer {
+    width: 100%;
+    background: black;
+    bottom: 0px;
+}
+.footerP {
+    width: 960px;
+    margin: 0px auto;
+}
+footer p {
+    font-size: 12px;
+    margin: 0px auto;
+    padding: 15px 50px 10px 50px;
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
