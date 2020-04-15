@@ -15,6 +15,7 @@ body {
 }
 header {
     background-color: black;
+    min-width: 960px;
 }
 nav {
     display: flex;
@@ -238,6 +239,7 @@ footer {
     width: 100%;
     background: black;
     bottom: 0px;
+    min-width: 960px;
 }
 .footerP {
     width: 960px;
